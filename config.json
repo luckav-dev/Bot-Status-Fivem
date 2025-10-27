@@ -1,0 +1,78 @@
+{
+  "token": "",
+  "clientId": "",
+  "guildId": "",
+  "server": {
+    "name": "Onyx Applications | FiveM",
+    "ip": "",
+    "port": 30120,
+    "cfxUrl": "https://cfx.re/join/mkyv9d",
+    "image": "",
+    "updateInterval": 30000,
+    "additionalButtons": {
+      "website": {
+        "enabled": false,
+        "url": "https://fivemx.com/fivem-server-ip-finder/",
+        "label": {
+          "en": "Website",
+          "es": "Sitio Web"
+        }
+      },
+      "discord": {
+        "enabled": false,
+        "url": "https://discord.gg/example",
+        "label": {
+          "en": "Discord",
+          "es": "Discord"
+        }
+      },
+      "twitter": {
+        "enabled": false,
+        "url": "https://twitter.com/example",
+        "label": {
+          "en": "Twitter",
+          "es": "Twitter"
+        }
+      },
+      "tiktok": {
+        "enabled": false,
+        "url": "https://www.tiktok.com/es-419/",
+        "label": {
+          "en": "TikTok",
+          "es": "TikTok"
+        }
+      }
+    }
+  },
+  "language": "en",
+  "supportedLanguages": [
+    "en",
+    "es"
+  ],
+  "messages": {
+    "en": {
+      "serverStatus": "Server Status",
+      "players": "Players Connected",
+      "status": "Status",
+      "online": "Online",
+      "offline": "Offline",
+      "updatingEvery": "Updated every 30 seconds",
+      "connectFiveM": "Connect FiveM",
+      "serverOffline": "Server is currently offline",
+      "errorFetching": "Error fetching server data",
+      "unknownPlayers": "Unknown"
+    },
+    "es": {
+      "serverStatus": "Estado del Servidor",
+      "players": "Jugadores Conectados",
+      "status": "Estado",
+      "online": "En Línea",
+      "offline": "Desconectado",
+      "updatingEvery": "Actualizado cada 30 segundos",
+      "connectFiveM": "Entrar al servidor",
+      "serverOffline": "El servidor está actualmente desconectado",
+      "errorFetching": "Error al obtener datos del servidor",
+      "unknownPlayers": "Desconocido"
+    }
+  }
+}
