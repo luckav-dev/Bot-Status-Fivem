@@ -352,7 +352,7 @@ See [LICENSE](LICENSE) file for details.
 If you have questions or need assistance, feel free to:
 
 - 🐛 [Open an Issue](https://github.com/luckav-dev/Bot-Status-Fivem/issues)
-- 💬 [Join our Discord server] (https://discord.gg/ArUJYAB48f)
+- 💬 [Join our Discord server](https://discord.gg/ArUJYAB48f)
 - 📧 Contact the developer
 
 **Made with ❤️ for the FiveM community**
