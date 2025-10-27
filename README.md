@@ -295,14 +295,15 @@ fivem-status-bot/
 │   ├── status.js
 │   └── stop-status.js
 │
+├── 📂 emojis/            # Emojis Discord
+│   └── .png
+│
 ├── 📂 events/            # Discord events
-│   └── ready.js
+│   └── interactionCreate.js
 │
 ├── 📂 utils/             # Utilities & managers
-│   ├── statusManager.js
-│   └── serverFetcher.js
-│
-├── 📂 emojis/            # Custom emojis
+│   ├── 📂 data/status-config.json
+│   ├── utils.js
 │
 ├── 📄 config.json        # Main configuration
 ├── 📄 package.json       # Dependencies
