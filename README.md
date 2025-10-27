@@ -51,7 +51,7 @@ Works with EvoShield, Shield.gg, DDoS-Guard, Cloudflare, and Playflare.net prote
 
 ## 📸 Preview
 
-![Status Container Preview](https://media.discordapp.net/attachments/1420529752497979483/1432454781192110110/image.png?ex=69011cf9&is=68ffcb79&hm=0d90e0b9ccd16da287f80382eb0d16db0f2b4ba24d4f241f06414978ca4a987f&=&format=webp&quality=lossless&width=382&height=339)
+![Status Container Preview](https://media.discordapp.net/attachments/1420529752497979483/1432456484276539392/image.png?ex=69011e8f&is=68ffcd0f&hm=acae5f3fcd0f9fda8942d16be028d49b9e496e288a7b53c463b101bd015ba0ab&=&format=webp&quality=lossless&width=528&height=314)
 
 *Live server status display with player count and custom action buttons*
 
