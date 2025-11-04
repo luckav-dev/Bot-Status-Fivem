@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 # 🎮 FiveM Server Status Bot
@@ -405,6 +404,3 @@ If you have questions or need assistance, feel free to:
 - 📧 Contact the developer
 
 **Made with ❤️ for the FiveM community**
-
-</div>
-```
