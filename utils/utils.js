@@ -468,7 +468,9 @@ class FiveMStatusManager {
             'ddos-guard.net',
             'cloudflare.com',
             'playflare.net',
-            'private-placeholder.cfx.re'
+            'private-placeholder.cfx.re',
+            'nopixel.net'
+
         ];
         return protectionServices.some(service => ip.includes(service));
     }
