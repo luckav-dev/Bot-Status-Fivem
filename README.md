@@ -1,3 +1,4 @@
+```markdown
 <div align="center">
 
 # 🎮 FiveM Server Status Bot
@@ -61,7 +62,7 @@ Works with EvoShield, Shield.gg, DDoS-Guard, Cloudflare, and Playflare.net prote
 
 ### Installation Steps
 
-```bash
+```
 # 1. Clone the repository
 git clone https://github.com/luckav-dev/Bot-Status-Fivem
 cd fivem-status-bot
@@ -89,7 +90,7 @@ npm start
 
 Edit your `config.json` file with your server details:
 
-```json
+```
 {
   "server": {
     "name": "Onyx Applications",
@@ -115,7 +116,7 @@ Edit your `config.json` file with your server details:
 
 Add social media and website links to your status display:
 
-```json
+```
 {
   "server": {
     "additionalButtons": {
@@ -282,6 +283,53 @@ https://cfx.re/join/majpq9
 
 </details>
 
+<details>
+<summary><b>Protection Service Not Recognized</b></summary>
+
+If your IP has a protection service that's not being recognized by the bot, follow these steps:
+
+1. Navigate to `utils > utils.js` in your project structure
+2. Scroll to approximately **line 460** and locate the `isProtectionService()` function
+3. Find the `protectionServices` array which currently contains:
+   ```
+   isProtectionService(ip) {
+       const protectionServices = [
+           'filter.evo-shield.com',
+           'shield.gg',
+           'ddos-guard.net',
+           'cloudflare.com',
+           'playflare.net',
+           'private-placeholder.cfx.re',
+           'nopixel.net'
+       ];
+       return protectionServices.some(service => ip.includes(service));
+   }
+   ```
+4. Add your protection service domain to the array by adding a new line with your service:
+   ```
+   'your-protection-service.com'
+   ```
+5. Save the file and restart your bot
+
+**Example:** If you're using a service called `myprotection.io`, add it like this:
+```
+isProtectionService(ip) {
+    const protectionServices = [
+        'filter.evo-shield.com',
+        'shield.gg',
+        'ddos-guard.net',
+        'cloudflare.com',
+        'playflare.net',
+        'private-placeholder.cfx.re',
+        'nopixel.net',
+        'myprotection.io'  // Your custom protection service
+    ];
+    return protectionServices.some(service => ip.includes(service));
+}
+```
+
+</details>
+
 ---
 
 ## 📁 Project Structure
@@ -359,3 +407,4 @@ If you have questions or need assistance, feel free to:
 **Made with ❤️ for the FiveM community**
 
 </div>
+```
