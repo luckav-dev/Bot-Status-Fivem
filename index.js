@@ -239,6 +239,7 @@ async function updateStatusMessage(client) {
                         .setURL(button.url)
                         .setLabel(button.label[client.statusLanguage] || button.label.en)
                         .setStyle(ButtonStyle.Link)
+                        .setEmoji(client.emojiManager.getEmoji('reply'))
                 );
             }
         });
